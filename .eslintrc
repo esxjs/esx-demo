@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react", "react-hooks", "prettier"],
+  "extends": ["standard", "standard-jsx", "standard-react", "plugin:prettier/recommended"],
+  "rules": {
+    "jsx-quotes": [2, "prefer-double"],
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "node/no-deprecated-api": [
+      "error",
+      {
+        "ignoreModuleItems": ["url.parse"]
+      }
+    ]
+  },
+  "env": {
+    "browser": true,
+    "serviceworker": true
+  },
+  "globals": {
+    "fetch": true,
+    "workbox": true,
+    "self": true,
+    "SW_DEBUG": true,
+    "VERSION": true
+  }
+}
