@@ -4,7 +4,7 @@ const { promisify } = require('util')
 const { spawn } = require('child_process')
 const autocannon = require('autocannon')
 const args = process.argv.slice(2)
-
+process.env.NODE_ENV = 'production'
 const up = promisify(function up (port, cb) {
   const socket = net.connect(port)
     .on('error', () => setTimeout(up, 300, port, cb))
@@ -37,7 +37,9 @@ async function bench (cmd) {
   
 `)
 
-  const sp = spawn('npm', ['run', cmd], {stdio: ['ignore', 'ignore', 'inherit']})
+  const sp = spawn('npm', ['run', cmd], {
+    stdio: ['ignore', 'ignore', 'inherit']
+  })
 
   await up(3000)
 

@@ -9,7 +9,11 @@ A small demo of [`esx`](https://github.com/esxjs/esx) in action.
 npm run bench
 ```
 
-![](./bench-results.png)
+### ~330% more throughput, ~325% higher req/s, ~75% lower latency
+
+<p align=center>
+  <img src='./bench-results.png' alt='benchmark results' width=800>
+</p>
 
 ## About
 

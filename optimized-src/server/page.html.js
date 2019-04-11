@@ -30,20 +30,6 @@ module.exports = async function renderPage(request, reply) {
         <link rel="apple-touch-icon" href="/images/icon-167.png" sizes="167x167" />
         <link rel="apple-touch-icon" href="/images/icon-180.png" sizes="180x180" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/images/favicon.ico" sizes="32x32" />
-        <link rel="shortcut icon" href="images/favicon.ico" sizes="196x196" />
-        <link rel="apple-touch-icon" href="/images/icon-120.png" />
-        <link rel="apple-touch-icon" href="/images/icon-152.png" sizes="152x152" />
-        <link rel="apple-touch-icon" href="/images/icon-167.png" sizes="167x167" />
-        <link rel="apple-touch-icon" href="/images/icon-180.png" sizes="180x180" />
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/images/favicon.ico" sizes="32x32" />
-        <link rel="shortcut icon" href="images/favicon.ico" sizes="196x196" />
-        <link rel="apple-touch-icon" href="/images/icon-120.png" />
-        <link rel="apple-touch-icon" href="/images/icon-152.png" sizes="152x152" />
-        <link rel="apple-touch-icon" href="/images/icon-167.png" sizes="167x167" />
-        <link rel="apple-touch-icon" href="/images/icon-180.png" sizes="180x180" />
-        <link rel="manifest" href="/manifest.json" />
 
         <link
           rel="apple-touch-startup-image"

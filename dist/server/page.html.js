@@ -71,58 +71,6 @@ module.exports = async function renderPage(request, reply) {
     rel: "manifest",
     href: "/manifest.json"
   }), React.createElement("link", {
-    rel: "icon",
-    href: "/images/favicon.ico",
-    sizes: "32x32"
-  }), React.createElement("link", {
-    rel: "shortcut icon",
-    href: "images/favicon.ico",
-    sizes: "196x196"
-  }), React.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/images/icon-120.png"
-  }), React.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/images/icon-152.png",
-    sizes: "152x152"
-  }), React.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/images/icon-167.png",
-    sizes: "167x167"
-  }), React.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/images/icon-180.png",
-    sizes: "180x180"
-  }), React.createElement("link", {
-    rel: "manifest",
-    href: "/manifest.json"
-  }), React.createElement("link", {
-    rel: "icon",
-    href: "/images/favicon.ico",
-    sizes: "32x32"
-  }), React.createElement("link", {
-    rel: "shortcut icon",
-    href: "images/favicon.ico",
-    sizes: "196x196"
-  }), React.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/images/icon-120.png"
-  }), React.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/images/icon-152.png",
-    sizes: "152x152"
-  }), React.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/images/icon-167.png",
-    sizes: "167x167"
-  }), React.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/images/icon-180.png",
-    sizes: "180x180"
-  }), React.createElement("link", {
-    rel: "manifest",
-    href: "/manifest.json"
-  }), React.createElement("link", {
     rel: "apple-touch-startup-image",
     href: "/images/splash_640x1136.png",
     media: "(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
